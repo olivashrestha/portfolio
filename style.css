@@ -17,16 +17,30 @@ body{
     
 }
 
+.fixed-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(160, 210, 174);
+    padding: 10px 10%;
+    height: 15%;
+    z-index: 9999;
+    /* Additional styles as per your requirements */
+  }
 #header{
     width: 100%;
     height: 100vh;
+    margin-top: 100px;
     background-image: url(images/bg.png);
     background-size: cover;
     background-position: center;
 }
 
+
 .container{
     padding: 10px 10%;
+    margin-top: 80px;
 }
 
 
@@ -73,7 +87,7 @@ nav ul li a:hover::after{
 
 .header-text{
     padding: 10px 10%;
-    margin-top: 10%;
+    margin-top: 20%;
     font-size: 25px;
     
 }
@@ -474,6 +488,11 @@ form .btn2{
     color: #fcf9f6;
   }
   
+  .contact-container{
+    padding: 10px 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
   
 
